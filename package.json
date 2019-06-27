@@ -1,0 +1,25 @@
+{
+  "name": "MyWebpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "concurrently \"npm start\" \"cd client && npm run build\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tura92/MyWebpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tura92/MyWebpage/issues"
+  },
+  "homepage": "https://github.com/Tura92/MyWebpage#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
